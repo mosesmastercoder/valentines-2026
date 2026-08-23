@@ -1,32 +1,27 @@
 # Valentines 2026
 
-askcassieout.netlify.app
+## Description
 
-Hello this is a small, personal Valentine's invitation website made for my girlfriend.
+A small, personal Valentine's invitation website created for a girlfriend. The page asks, "Will you be my Valentine for the fourth time?" and uses playful interactions, themed styling, and an animated envelope reveal to make the invitation feel personal and surprising.
 
-The page asks a simple question: **Will you be my Valentine for the fourth time?** It is designed to feel playful, personal, and a little surprising rather than like a standard invitation.
+## Purpose
+
+This project was built as a playful digital Valentine's invitation and personal surprise rather than a standard invitation.
 
 ## Features
 
-- **Three color themes**
-  - Based on her favorite colors at the time
-- Themes can be changed using the color buttons in the top-right corner.
-- The selected theme is saved in the browser with `localStorage`, so it stays selected when the page is reopened.
-- **Interactive No counter**
-  - Every time she clicks `No`, the page counts it as a playful interaction.
-  - After she clicks `Yes`, the invitation displays how many times she clicked `No`.
-- **Animated envelope reveal**
-  - Clicking `Yes` transitions to an opening envelope with a personal message.
-- **Video surprise**
-  - Clicking `Click to see surprise` opens and plays `surprise.mp4`.
-  - The video is a personal twerking surprise from me.
+- Three selectable color themes
+  - Brown, green, and pink themes
+  - The selected theme is saved in the browser with `localStorage`
+- Interactive `No` button counter
+  - Counts each click before the invitation is accepted
+  - Displays the count after the user clicks `Yes`
+- Animated envelope reveal with a personal message
+- Video surprise that plays when the user clicks `Click to see surprise`
 
-## Project Structure
+## Tech Used
 
-```
-.
-├── index.html     # Page structure and invitation content
-├── style.css      # Layout, themes, animations, and responsive styles
-├── script.js      # Theme selection, No counter, and page interactions
-└── surprise.mp4   # Personal video surprise
-```
+- HTML
+- CSS
+- JavaScript
+- Browser `localStorage` API
